@@ -1,0 +1,8 @@
+---
+- hosts: planeta.pruebas.urjc.es
+  remote_user: root
+  tasks:
+    - name: hacer un ping
+      ping:
+
+
