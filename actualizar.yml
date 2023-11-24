@@ -1,7 +1,0 @@
----
-- name: Instalar la ultima versión de Apache y MariaDB
-  dnf:
-    name:
-     - httpd
-      - mariadb-server
-    state: latest
